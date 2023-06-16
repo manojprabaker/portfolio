@@ -9,6 +9,7 @@ box-sizing:border-box;
     --progress-color:#6F5FDC;
     --icon-color:#000;
     --transalte-color:#000;
+    --box-Shadow-color:#bbb1b1;
 }
 body.dark-theme{
 	--bg-color:#181523;
@@ -18,6 +19,7 @@ body.dark-theme{
     --progress-color:#6F5FDC;
     --icon-color:#fff;
     --transalte-color:#fff;
+    --box-Shadow-color:#564b74;
 }
 html{
 	 scroll-behavior:smooth;
@@ -533,7 +535,7 @@ i.fa-solid.fa-calendar-days {
 }
 .project-img {
     margin-left: 0rem;
-    width: 60%;
+    width: 50%;
 }
 .projects-dta {
     /* box-shadow: 0px 0px 2px 3px #c5bfbf; */
@@ -546,6 +548,7 @@ i.fa-solid.fa-calendar-days {
     padding: 12px;
 }
 .project-img img {
+    box-shadow: 0px 0px 8px 4px var(--box-Shadow-color);
     border-radius: 11px;
     width: 100%;
 }
@@ -556,7 +559,7 @@ i.fa-solid.fa-calendar-days {
 }
 .projects-tols {
     padding: 20px;
-    width: 40%;
+    width: 50%;
 }
 .git-code {
     align-items: center;
@@ -980,81 +983,3 @@ p.git-code-project {
     width: 23%;
 }
 }
-/* svg {
-    margin-left: 2rem;
-} */
-
-
-/* Mobile view */
-/* @media (min-width:320px) and (max-width:670px) { */
-/* .cv-btn { */
-    /* display: flex; */
-    /* margin-top: 4rem; */
-    /* justify-content: center; */
-/* } */
-/* .about-row { */
-    /* flex-direction: column; */
-    
-    /* margin-top: 4rem; */
-/* } */
-/* .about-pic ,.about-data { */
-    /* width: 100%; */
-/* } */
-
-/* Mobile view */
-/* @media (min-width:320px) and (max-width:670px) { */
-	
-	/* .trainee { */
-    /* flex-direction: column; */
-    
-/* } */
-/* .trainee-logo { */
-    /* width: 80%; */
-/* } */
-/* .trainee-data { */
-    
-    /* width: 100%; */
-    /* margin-top: 2.2rem; */
-/* } */
-   /* .degree { */
-    /* gap: 14%; */
-/* } */
-/* } */
-/* Mobile view */
-/* @media (min-width:320px) and (max-width:670px) { */
-	/* .project-item { */
-    /* flex-direction: column; */
-   
-/* } */
-
-	/* .col-1{ */
-		/* order:2; */
-	/* } */
-	/* .col-2{ */
-		/* order:1; */
-	/* } */
-	/* .project-img ,.projects-data{ */
-    /* width: 100%; */
-/* } */
-/* .projects-col{ */
-	    /* padding: 10px; */
-    /* box-shadow: 2px 3px 3px 4px; */
-/* } */
-/* } */
-/* Mobile view */
-/* @media (min-width:320px) and (max-width:670px) { */
-	/* .contact-title { */
-    /* margin-top: 1rem; */
-/* } */
-/* .contact-col { */
-    /* flex-direction: column; */
-/* } */
-/* .contact-call,.contact-email, .contact-location { */
-    /* padding: 10px 0; */
-/* } */
-/* .contact-links { */
-     /* font-size: 2.3rem; */
-    /* gap: 40%; */
-   
-/* } */
-/* } */
